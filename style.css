@@ -19,3 +19,14 @@ h2 {
 	color: #888;
 	font-size: 2em;
 }
+
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 1.7em;
+	}
+
+	h2 {
+		color: #888;
+		font-size: 1em;
+	}
+}
