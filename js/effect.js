@@ -55,4 +55,14 @@ window.onload = function () {
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
+
+  // Text 7 colors
+  var textHtml = document.querySelector('.txt');
+  var html = textHtml.textContent;
+  var text = function(i, html) {
+    var chars = html.trim().split("");
+
+    return '<span>' + chars.join('</span><span>') + '</span>';
+  };
+  textHtml.innerHTML = text(0, html);
 };
