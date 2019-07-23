@@ -56,7 +56,7 @@ window.onload = function () {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 
-  // Text 7 colors
+  // TEXT 7 COLORS
   var textHtml = document.querySelector('.txt');
   var html = textHtml.textContent;
   var text = function(i, html) {
